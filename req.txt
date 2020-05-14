@@ -1,0 +1,12 @@
+
+только один раз 
+git config --global user.email "erlan.burkanbaev@gmail.com"
+git config --global user.name "burkanbaev"
+
+
+echo "# test_lesson_13" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/burkanbaev/test_lesson_13.git
+git push -u origin master
